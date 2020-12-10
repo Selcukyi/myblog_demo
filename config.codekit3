@@ -9,6 +9,14 @@
 	],
 "creatorBuild": "33081",
 "files": {
+	"/.browserslistrc": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.browserslistrc",
+		"oF": 0
+		},
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
@@ -54,6 +62,19 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"/app/assets/stylesheets/posts.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/app/assets/stylesheets/posts.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
 	"/app/channels/application_cable/channel.rb": {
 		"cB": 0,
 		"ft": 8192,
@@ -86,12 +107,28 @@
 		"oAP": "/app/controllers/concerns/.keep",
 		"oF": 0
 		},
+	"/app/controllers/posts_controller.rb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/app/controllers/posts_controller.rb",
+		"oF": 0
+		},
 	"/app/helpers/application_helper.rb": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/app/helpers/application_helper.rb",
+		"oF": 0
+		},
+	"/app/helpers/posts_helper.rb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/app/helpers/posts_helper.rb",
 		"oF": 0
 		},
 	"/app/javascript/channels/consumer.js": {
@@ -159,6 +196,14 @@
 		"oAP": "/app/models/concerns/.keep",
 		"oF": 0
 		},
+	"/app/models/post.rb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/app/models/post.rb",
+		"oF": 0
+		},
 	"/app/views/layouts/application.html.erb": {
 		"cB": 0,
 		"ft": 8192,
@@ -183,6 +228,46 @@
 		"oAP": "/app/views/layouts/mailer.text.erb",
 		"oF": 0
 		},
+	"/app/views/posts/_form.html.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/app/views/posts/_form.html.erb",
+		"oF": 0
+		},
+	"/app/views/posts/edit.html.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/app/views/posts/edit.html.erb",
+		"oF": 0
+		},
+	"/app/views/posts/index.html.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/app/views/posts/index.html.erb",
+		"oF": 0
+		},
+	"/app/views/posts/new.html.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/app/views/posts/new.html.erb",
+		"oF": 0
+		},
+	"/app/views/posts/show.html.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/app/views/posts/show.html.erb",
+		"oF": 0
+		},
 	"/article_show.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -198,6 +283,17 @@
 		"oA": 0,
 		"oAP": "/articles.html",
 		"oF": 0
+		},
+	"/babel.config.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/babel.config-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/bin/bundle": {
 		"cB": 0,
@@ -237,6 +333,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/bin/spring",
+		"oF": 0
+		},
+	"/bin/webpack": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/bin/webpack",
+		"oF": 0
+		},
+	"/bin/webpack-dev-server": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/bin/webpack-dev-server",
 		"oF": 0
 		},
 	"/bin/yarn": {
@@ -447,12 +559,88 @@
 		"oAP": "/config/storage.yml",
 		"oF": 0
 		},
+	"/config/webpack/development.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/config/webpack/development-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/config/webpack/environment.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/config/webpack/environment-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/config/webpack/production.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/config/webpack/production-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/config/webpack/test.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/config/webpack/test-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/config/webpacker.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/webpacker.yml",
+		"oF": 0
+		},
 	"/contact.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/contact.html",
+		"oF": 0
+		},
+	"/db/development.sqlite3": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/db/development.sqlite3",
+		"oF": 0
+		},
+	"/db/migrate/20201204141611_create_posts.rb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/db/migrate/20201204141611_create_posts.rb",
+		"oF": 0
+		},
+	"/db/schema.rb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/db/schema.rb",
 		"oF": 0
 		},
 	"/db/seeds.rb": {
@@ -517,6 +705,23 @@
 		"oAP": "/build/log",
 		"oF": 0
 		},
+	"/node_modules": {
+		"ft": 65536,
+		"oA": 2,
+		"oAP": "/build/node_modules",
+		"oF": 0
+		},
+	"/node_modules/@rails/actioncable/app/assets/javascripts/action_cable.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/@rails/actioncable/app/assets/javascripts/action_cable-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
 	"/package.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -524,6 +729,17 @@
 		"oF": 0,
 		"oO": 0,
 		"oS": 1
+		},
+	"/postcss.config.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/postcss.config-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
 		},
 	"/public/404.html": {
 		"cB": 0,
@@ -582,6 +798,33 @@
 		"oA": 0,
 		"oAP": "/public/favicon.ico",
 		"oF": 0
+		},
+	"/public/packs/js/application-9afcbb5693aa87623e69.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/public/packs/js/application-9afcbb5693aa87623e69-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/public/packs/js/application-9afcbb5693aa87623e69.js.map": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/public/packs/js/application-9afcbb5693aa87623e69.js.map",
+		"oF": 0
+		},
+	"/public/packs/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "/public/packs/manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
 		},
 	"/public/robots.txt": {
 		"cB": 0,
@@ -722,6 +965,14 @@
 		"oAP": "/test/controllers/.keep",
 		"oF": 0
 		},
+	"/test/controllers/posts_controller_test.rb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/test/controllers/posts_controller_test.rb",
+		"oF": 0
+		},
 	"/test/fixtures/.keep": {
 		"cB": 0,
 		"ft": 8192,
@@ -736,6 +987,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/test/fixtures/files/.keep",
+		"oF": 0
+		},
+	"/test/fixtures/posts.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/test/fixtures/posts.yml",
 		"oF": 0
 		},
 	"/test/helpers/.keep": {
@@ -770,6 +1029,14 @@
 		"oAP": "/test/models/.keep",
 		"oF": 0
 		},
+	"/test/models/post_test.rb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/test/models/post_test.rb",
+		"oF": 0
+		},
 	"/test/system/.keep": {
 		"cB": 0,
 		"ft": 8192,
@@ -800,12 +1067,36 @@
 		"oAP": "/build/tmp/cache",
 		"oF": 0
 		},
+	"/tmp/development_secret.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/tmp/development_secret.txt",
+		"oF": 0
+		},
 	"/tmp/pids/.keep": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/tmp/pids/.keep",
+		"oF": 0
+		},
+	"/tmp/pids/server.pid": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/tmp/pids/server.pid",
+		"oF": 0
+		},
+	"/tmp/restart.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/tmp/restart.txt",
 		"oF": 0
 		},
 	"/tmp/storage/.keep": {
@@ -822,6 +1113,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/vendor/.keep",
+		"oF": 0
+		},
+	"/yarn.lock": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/yarn.lock",
 		"oF": 0
 		}
 	},
