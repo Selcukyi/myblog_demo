@@ -52,17 +52,43 @@
 		"oAP": "/app/assets/images/.keep",
 		"oF": 0
 		},
-	"/app/assets/stylesheets/application.css": {
+	"/app/assets/stylesheets/_normalize.css.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/app/assets/stylesheets/_normalize.css.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/app/assets/stylesheets/_post_projects.css.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/app/assets/stylesheets/_post_projects.css.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/app/assets/stylesheets/_welcome.css.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 0,
-		"oAP": "/app/assets/stylesheets/application-min.css",
+		"oA": 1,
+		"oAP": "/app/assets/stylesheets/_welcome.css-min.css",
 		"oF": 0,
 		"oS": 3
 		},
-	"/app/assets/stylesheets/posts.scss": {
+	"/app/assets/stylesheets/_welcome.css.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -70,7 +96,30 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "/app/assets/stylesheets/posts.css",
+		"oAP": "/app/assets/stylesheets/_welcome.css.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/app/assets/stylesheets/application.css.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/app/assets/stylesheets/application.css-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/app/assets/stylesheets/application.css.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/app/assets/stylesheets/application.css.css",
 		"oF": 0,
 		"oS": 0,
 		"sct": 0

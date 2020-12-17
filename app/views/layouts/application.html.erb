@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Myblog</title>
+
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/f9b8ec0cd0.js" crossorigin="anonymous"></script>
+
+      <title>Selcuk's Blog</title>
+    
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -10,6 +16,18 @@
   </head>
 
   <body>
+    <header id="main_nav" class="clearfix">
+
+            <a href="#" class="name">Selçuk Yılmaz</a>
+            <nav>
+              <%= link_to "Articles", posts_path%>
+             
+              <a href="#">Projects</a>
+              <a href="contact.html">Contact</a>
+              
+
+            </nav>
+        </header>
     <%= yield %>
   </body>
 </html>
