@@ -197,6 +197,10 @@ input[type="submit"], .button{
 	margin: 4em 0 0 0;
 	text-align: center;
 }
+
+.hidden{
+	display: none;
+}
 @import 'welcome';
 @import 'post_projects.css.scss';
 @import "pygments.css.scss";
