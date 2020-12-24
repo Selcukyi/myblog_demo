@@ -861,6 +861,14 @@
 		"oAP": "/db/migrate/20201224063236_create_projects.rb",
 		"oF": 0
 		},
+	"/db/migrate/20201224071735_add_slug_to_projects.rb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/db/migrate/20201224071735_add_slug_to_projects.rb",
+		"oF": 0
+		},
 	"/db/schema.rb": {
 		"cB": 0,
 		"ft": 8192,
