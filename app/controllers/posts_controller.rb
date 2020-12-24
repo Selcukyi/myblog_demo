@@ -1,6 +1,7 @@
 class PostsController < ApplicationController
 	before_action :find_post, only: [:show,:edit,:destroy,:update] 
 	def index
+		@posts = Post.all.order("created_at desc")
 	end
 
 	def new
@@ -20,9 +21,7 @@ class PostsController < ApplicationController
 
 	def edit
 	end
-	def should_generate_new_friedly_id?
-  	 slug.blank? || title_changed?
-	end
+	
 	
 
 
