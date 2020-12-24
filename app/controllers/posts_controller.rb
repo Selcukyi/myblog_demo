@@ -1,7 +1,7 @@
 class PostsController < ApplicationController
 	before_action :find_post, only: [:show,:edit,:destroy,:update] 
 	def index
-		@posts = Post.all.order("created_at desc")
+		@posts = Post.all.order("created_at desc").paginate(page: params[:page], per_page: 5)
 	end
 
 	def new
@@ -11,7 +11,7 @@ class PostsController < ApplicationController
 	def create
 		@post = Post.new post_params
 		if @post.save
-			redirect_to @post, notice:"Good Job seço article saved."
+			redirect_to @post, notice:"Good Job article saved."
 		else
 			render 'new', notice:"unable to save :("
 		end

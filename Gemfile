@@ -29,6 +29,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 
 gem 'redcarpet', '~> 3.3'
 gem 'friendly_id', '~> 5.1'
+gem 'will_paginate', '~> 3.1'
 gem 'pygments.rb', '~> 1.2'
 
 group :development, :test do
