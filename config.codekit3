@@ -430,6 +430,14 @@
 		"oAP": "/app/views/projects/_form.html.erb",
 		"oF": 0
 		},
+	"/app/views/projects/edit.html.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/app/views/projects/edit.html.erb",
+		"oF": 0
+		},
 	"/app/views/projects/index.html.erb": {
 		"cB": 0,
 		"ft": 8192,
