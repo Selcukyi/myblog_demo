@@ -15,6 +15,16 @@ $white: #FFFFFF;
 			font-size: .9em;
 			margin: 0em;
 		}
+		hr{
+                width: 3em;
+                display: block;
+                border: 0;
+
+                height: 2px;
+                border-top: 2px solid $highlight;
+                margin: 2rem auto;
+                        
+          }
 		h2{
 			margin-bottom: 0;
 			text-align: center;

@@ -13,7 +13,7 @@ class PostsController < ApplicationController
 		if @post.save
 			redirect_to @post, notice:"Good Job article saved."
 		else
-			render 'new', notice:"unable to save :("
+			render 'new', notice:"unable to save."
 		end
 	end
 	def show

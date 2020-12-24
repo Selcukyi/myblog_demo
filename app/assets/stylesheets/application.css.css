@@ -518,6 +518,25 @@ input[type=submit]:hover, .button:hover {
   border: 2px solid #424652;
 }
 
+.project_button {
+  background: #8bc6db;
+  color: #FFFFFF;
+  text-decoration: none;
+  padding: 1em 2em;
+  margin: 3em 0;
+}
+.project_button:hover {
+  color: #FFFFFF;
+  transition: 0.3s;
+  background: #424652;
+  border: 2px solid #424652;
+}
+
+.button_wrapper {
+  margin: 4em 0 0 0;
+  text-align: center;
+}
+
 #posts-wrapper {
   padding: 3em 0;
 }
@@ -527,6 +546,14 @@ input[type=submit]:hover, .button:hover {
 #posts-wrapper .post .date {
   font-size: 0.9em;
   margin: 0em;
+}
+#posts-wrapper .post hr {
+  width: 3em;
+  display: block;
+  border: 0;
+  height: 2px;
+  border-top: 2px solid #8bc6db;
+  margin: 2rem auto;
 }
 #posts-wrapper .post h2 {
   margin-bottom: 0;

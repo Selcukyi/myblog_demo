@@ -17,6 +17,14 @@
 		"oAP": "/.browserslistrc",
 		"oF": 0
 		},
+	"/.bundle/config": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/.bundle/config",
+		"oF": 0
+		},
 	"/.gitignore": {
 		"cB": 0,
 		"ft": 8192,
@@ -124,6 +132,29 @@
 		"oS": 0,
 		"sct": 0
 		},
+	"/app/assets/stylesheets/projects.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"ec": 1,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/app/assets/stylesheets/projects.css",
+		"oF": 0,
+		"oS": 0,
+		"sct": 0
+		},
+	"/app/assets/stylesheets/pygments.css.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/app/assets/stylesheets/pygments.css-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/app/assets/stylesheets/pygments.css.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -190,6 +221,14 @@
 		"oAP": "/app/controllers/posts_controller.rb",
 		"oF": 0
 		},
+	"/app/controllers/projects_controller.rb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/app/controllers/projects_controller.rb",
+		"oF": 0
+		},
 	"/app/controllers/welcome_controller.rb": {
 		"cB": 0,
 		"ft": 8192,
@@ -212,6 +251,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/app/helpers/posts_helper.rb",
+		"oF": 0
+		},
+	"/app/helpers/projects_helper.rb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/app/helpers/projects_helper.rb",
 		"oF": 0
 		},
 	"/app/helpers/welcome_helper.rb": {
@@ -295,6 +342,14 @@
 		"oAP": "/app/models/post.rb",
 		"oF": 0
 		},
+	"/app/models/project.rb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/app/models/project.rb",
+		"oF": 0
+		},
 	"/app/views/layouts/application.html.erb": {
 		"cB": 0,
 		"ft": 8192,
@@ -317,6 +372,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/app/views/layouts/mailer.text.erb",
+		"oF": 0
+		},
+	"/app/views/posts/_disqus.html.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/app/views/posts/_disqus.html.erb",
 		"oF": 0
 		},
 	"/app/views/posts/_form.html.erb": {
@@ -357,6 +420,38 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/app/views/posts/show.html.erb",
+		"oF": 0
+		},
+	"/app/views/projects/_form.html.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/app/views/projects/_form.html.erb",
+		"oF": 0
+		},
+	"/app/views/projects/index.html.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/app/views/projects/index.html.erb",
+		"oF": 0
+		},
+	"/app/views/projects/new.html.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/app/views/projects/new.html.erb",
+		"oF": 0
+		},
+	"/app/views/projects/show.html.erb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/app/views/projects/show.html.erb",
 		"oF": 0
 		},
 	"/app/views/welcome/index.html.erb": {
@@ -586,6 +681,14 @@
 		"oAP": "/config/initializers/filter_parameter_logging.rb",
 		"oF": 0
 		},
+	"/config/initializers/friendly_id.rb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/config/initializers/friendly_id.rb",
+		"oF": 0
+		},
 	"/config/initializers/inflections.rb": {
 		"cB": 0,
 		"ft": 8192,
@@ -732,6 +835,30 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/db/migrate/20201204141611_create_posts.rb",
+		"oF": 0
+		},
+	"/db/migrate/20201224002226_create_friendly_id_slugs.rb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/db/migrate/20201224002226_create_friendly_id_slugs.rb",
+		"oF": 0
+		},
+	"/db/migrate/20201224002349_add_slug_to_post.rb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/db/migrate/20201224002349_add_slug_to_post.rb",
+		"oF": 0
+		},
+	"/db/migrate/20201224063236_create_projects.rb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/db/migrate/20201224063236_create_projects.rb",
 		"oF": 0
 		},
 	"/db/schema.rb": {
@@ -1072,6 +1199,14 @@
 		"oAP": "/test/controllers/posts_controller_test.rb",
 		"oF": 0
 		},
+	"/test/controllers/projects_controller_test.rb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/test/controllers/projects_controller_test.rb",
+		"oF": 0
+		},
 	"/test/controllers/welcome_controller_test.rb": {
 		"cB": 0,
 		"ft": 8192,
@@ -1102,6 +1237,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/test/fixtures/posts.yml",
+		"oF": 0
+		},
+	"/test/fixtures/projects.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/test/fixtures/projects.yml",
 		"oF": 0
 		},
 	"/test/helpers/.keep": {
@@ -1142,6 +1285,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/test/models/post_test.rb",
+		"oF": 0
+		},
+	"/test/models/project_test.rb": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/test/models/project_test.rb",
 		"oF": 0
 		},
 	"/test/system/.keep": {

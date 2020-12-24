@@ -576,11 +576,11 @@ input[type=submit]:hover, .button:hover {
   font-size: 2em;
   text-transform: uppercase;
 }
-#posts-wrapper .post h2 a {
+#posts-wrapper .post a {
   text-decoration: none;
   color: #424652;
 }
-#posts-wrapper .post h2 a:hover {
+#posts-wrapper .post a:hover {
   color: #8bc6db;
   transition: 0.2s;
 }
